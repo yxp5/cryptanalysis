@@ -1,0 +1,14 @@
+Author: pyx
+Git: yxp5
+
+This program demonstrates 3 cryptography encryption schemes with different complexity level. The code is not optimized as it serves educational purposes for it to be easy to read and to understand.
+
+Level 3 complexity is based on SHA-512 (level 4) algorithm but without the round function layer. Note that the limitation of 200 characters is not practical in real life (SHA-512 limitation is pow(2,128) - 2 input bits!)
+
+
+Changelog:
+
+2025/2/14: 	Fixed issue in level 3, where uniform input 'a' yield the same encryption.
+		Add level 4, complete implementation of SHA-512 algorithm
+
+2025/2/13: 	Initial release.
